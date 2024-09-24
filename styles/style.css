@@ -85,12 +85,15 @@
     padding-top: 165px;
     padding-left: 50px;
     letter-spacing: 30px;  
+
 }
 
 .cover_description {
    display: flex;
    color:#FFFFFF; 
+
 }
+
 .cover_description-text {
     display:flex;
     align-items: end;
@@ -98,7 +101,8 @@
     margin-left: 78px;
     margin-bottom: 40px;
     margin-top: 327px;;
-    font-weight: 50;   
+    font-weight: 50;  
+
 }
 
 .bet_button {
@@ -127,6 +131,7 @@
     height: 692px;
     margin-top:200px ;
 }
+
 .card_type_film {
 
     background-image: 
@@ -138,6 +143,7 @@
     
 	
 }
+
 .card_type_book {
     background-image: 
     linear-gradient(
@@ -147,8 +153,8 @@
     url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-02.jpg");
    
  
-	
 }
+
 .card_type_picture {
     background-image: 
     linear-gradient(
@@ -159,6 +165,7 @@
     
 	
 }
+
 .lots_card-list {
     text-decoration: none;
     display: flex;
@@ -200,8 +207,8 @@
     margin-top: 60px;
     line-height: 1.5;
     
-
 }
+
 .card_text {
     display: grid;
     align-self:end;
