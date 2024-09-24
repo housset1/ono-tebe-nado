@@ -20,6 +20,10 @@
     text-align: center;
 }
 
+.header__menu-list {
+    list-style-type: circle;
+}
+
 .header__logo-image {
    
     width:148px;
@@ -80,16 +84,12 @@
     font-weight: 700;
     padding-top: 165px;
     padding-left: 50px;
-    letter-spacing: 30px;
-    
+    letter-spacing: 30px;  
 }
 
 .cover_description {
    display: flex;
    color:#FFFFFF; 
-   
-  
-
 }
 .cover_description-text {
     display:flex;
@@ -98,8 +98,7 @@
     margin-left: 78px;
     margin-bottom: 40px;
     margin-top: 327px;;
-    font-weight: 50;
-    
+    font-weight: 50;   
 }
 
 .bet_button {
@@ -210,6 +209,7 @@
     font-weight: 100;
     font-size: 20px; 
     margin-left: 30px;
+    
 }
 
 .lots_look-more-link {
