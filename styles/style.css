@@ -66,7 +66,10 @@
     letter-spacing: 60px;
 }
 .cover {
-    background-image: url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/cover.jpg"); 
+    background-image: url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/cover.jpg");
+    background-repeat: no-repeat;
+	background-position:auto;
+	background-size:100% 100%;  
 }
 .cover__title {
     color:#FFFFFF;
