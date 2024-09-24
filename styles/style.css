@@ -67,7 +67,7 @@
     letter-spacing: 60px;
 }
 .cover {
-    background-image: url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/cover.jpg");
+    background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
 	background-position:auto;
 	background-size:100% 100%;  
@@ -125,7 +125,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-01.jpg");
+    url("../images/card-lot-01.jpg");
 }
 .card_type_book {
     background-image: 
@@ -133,7 +133,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-02.jpg");
+    url("../images/card-lot-02.jpg");
 }
 .card_type_picture {
     background-image: 
@@ -141,7 +141,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-03.jpg");
+    url("../images/card-lot-03.jpg");
 }
 .lots_card-list {
     text-decoration: none;
@@ -248,7 +248,7 @@
 .footer {
     margin-top: 200px;
     height:98px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .footer_columns {
     display: grid;
@@ -264,6 +264,7 @@
 }
 .footer-title {
     line-height: normal;
+    margin-top: 30px;
    
 }
 .footer__menu-item {
@@ -287,7 +288,7 @@
 .footer-contacts {
     display: grid;
    margin-right:auto;
-   margin-top: 5px;
+   margin-top: 30px;
 }
 .footer-menu {
     display: grid;
@@ -295,6 +296,7 @@
 .footer__social-list {
     display: grid;
     justify-items: end;
+    margin-top: 30px;
     margin-bottom: 40px;
     
 }
