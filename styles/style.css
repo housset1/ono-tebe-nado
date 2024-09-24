@@ -10,6 +10,9 @@
 .none_mark {
     list-style-type:none;
 }
+.no_style {
+    all:unset;
+}
 .head-title {
     display:inline-block;
     padding:44px 26.52px 44px 26.52px;
@@ -19,7 +22,6 @@
     margin:0 20px;
     text-align: center;
 }
-
 .header__menu-list {
     list-style-type: circle;
 }
@@ -29,12 +31,10 @@
     width:148px;
     height:105px;
 }
-
 .center {
     display: flex;
     justify-content: center;
 }
-
 .header__menu-contact {
     display:block;
 }
@@ -43,7 +43,6 @@
    margin-left:auto;
    margin-top: 5px;
 }
-
 .accent-span {
     display:block;
 }
@@ -59,8 +58,6 @@
     z-index: 10;
     background-size: 100% 100%;
 }
-
-
 .letter {
     letter-spacing: 60px;
     
@@ -72,12 +69,9 @@
     background-image: url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/cover.jpg");
     background-repeat: no-repeat;
 	background-position:auto;
-	background-size:100% 100% ;
-   
-    
+	background-size:100% 100% ;  
 }
 .cover__title {
-
     color:#FFFFFF;
     height: 355px;
 	font-size: 100px;
@@ -85,15 +79,11 @@
     padding-top: 165px;
     padding-left: 50px;
     letter-spacing: 30px;  
-
 }
-
 .cover_description {
    display: flex;
    color:#FFFFFF; 
-
 }
-
 .cover_description-text {
     display:flex;
     align-items: end;
@@ -102,9 +92,7 @@
     margin-bottom: 40px;
     margin-top: 327px;;
     font-weight: 50;  
-
 }
-
 .bet_button {
     display: flex;
     justify-content: end;
@@ -118,8 +106,6 @@
     padding:10px 20px;
     font-weight: 50;
 }
-
-
 .lots_heading {
     margin-left: 40px;
     font-weight: 700;
@@ -131,7 +117,6 @@
     height: 692px;
     margin-top:200px ;
 }
-
 .card_type_film {
 
     background-image: 
@@ -140,10 +125,7 @@
         rgb(0 0 0/0.7)
     ),
     url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-01.jpg");
-    
-	
 }
-
 .card_type_book {
     background-image: 
     linear-gradient(
@@ -151,10 +133,7 @@
         rgb(0 0 0/0.7)
     ),
     url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-02.jpg");
-   
- 
 }
-
 .card_type_picture {
     background-image: 
     linear-gradient(
@@ -162,10 +141,7 @@
         rgb(0 0 0/0.7)
     ),
     url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-03.jpg");
-    
-	
 }
-
 .lots_card-list {
     text-decoration: none;
     display: flex;
@@ -186,18 +162,13 @@
     text-decoration: none;
     height: 100%;
 }
-
 .card {
-    
     display: grid;
     height: 100%;
     padding-right: 15px;
     padding-bottom: 30px;
-   
-    
 }
 .card_title {
-    
     font-weight: 700;
     font-size: 22px;
     text-decoration: underline;
@@ -206,9 +177,7 @@
     margin-left: 30px;
     margin-top: 60px;
     line-height: 1.5;
-    
 }
-
 .card_text {
     display: grid;
     align-self:end;
@@ -216,9 +185,7 @@
     font-weight: 100;
     font-size: 20px; 
     margin-left: 30px;
-    
 }
-
 .lots_look-more-link {
     margin-left: 40px;
     font-weight: 400;
@@ -227,9 +194,6 @@
     text-decoration: underline;
     text-underline-position: under;
 }
-
-
-
 .about {
     height: 595px;
     margin-top:150px;
@@ -251,8 +215,7 @@
     padding: 40px;
     margin-left: 40px;
     margin-top: 35px;
-    align-content: center;
-    
+    align-content: center; 
 }
 .about_logo-image {
     justify-content: center;
@@ -278,20 +241,16 @@
     font-weight: 400;
     align-self: end;
 }
-
-
 .footer {
     margin-top: 200px;
     height:98px;
     margin-bottom: 100px;
 }
-
 .footer_columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 98px);
 }
-
 .footer__menu-link {
     text-decoration: underline;
     text-underline-position: under;
@@ -299,7 +258,6 @@
 .footer__menu-link1 {
     text-decoration: none;
 }
-
 .footer-title {
     line-height: normal;
 }
@@ -317,7 +275,6 @@
     justify-items: center;
     list-style-type: none;
 }
-
 .footer__menu-contact {
     display:block;
 }
@@ -329,7 +286,6 @@
 .footer-menu {
     display: grid;
 }
-
 .footer__social-list {
     display: grid;
     justify-items: end;
