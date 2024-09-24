@@ -67,7 +67,7 @@
     letter-spacing: 60px;
 }
 .cover {
-    background-image: url("../images/cover.jpg");
+    background-image: url("./cover.jpg");
     background-repeat: no-repeat;
 	background-position:auto;
 	background-size:100% 100%;  
@@ -125,7 +125,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("../images/card-lot-01.jpg");
+    url("./card-lot-01.jpg");
 }
 .card_type_book {
     background-image: 
@@ -133,7 +133,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("../images/card-lot-02.jpg");
+    url("./card-lot-02.jpg");
 }
 .card_type_picture {
     background-image: 
@@ -141,7 +141,7 @@
         rgb(0 0 0/0.7),
         rgb(0 0 0/0.7)
     ),
-    url("../images/card-lot-03.jpg");
+    url("./card-lot-03.jpg");
 }
 .lots_card-list {
     text-decoration: none;
