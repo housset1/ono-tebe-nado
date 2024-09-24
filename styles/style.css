@@ -236,6 +236,7 @@
     align-self: end;
     margin-top:100px;
     margin-bottom: 40px;
+   
     
 }
 .about_text {
@@ -244,6 +245,7 @@
     font-weight: 400;
     align-self: end;
     margin-left:40px;
+     margin-right: 40px;
 }
 .footer {
     margin-top: 200px;
@@ -276,6 +278,7 @@
     display: grid;
     justify-items: left;
      margin-left: 40px;
+     line-height: 1.5;
 }
 .footer__menu-list1 {
     display: grid;
