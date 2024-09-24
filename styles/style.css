@@ -40,8 +40,9 @@
 }
 .head-contacts {
     display: inline-block;
-   margin-left:auto;
+   margin-left:150px;
    margin-top: 5px;
+   line-height: 1.5;
 }
 .accent-span {
     display:block;
@@ -89,7 +90,7 @@
     align-items: end;
     word-spacing: 30px;
     margin-left: 78px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     margin-top: 327px;;
     font-weight: 50;  
 }
@@ -99,7 +100,7 @@
     align-items: flex-end;
     margin-left: auto;
     margin-right: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     margin-top:327px;
     background-color: transparent;
     border:1px solid #FFFFFF;
@@ -115,7 +116,7 @@
 }
 .lots {
     height: 692px;
-    margin-top:200px ;
+    margin-top:150px ;
 }
 .card_type_film {
 
@@ -196,7 +197,7 @@
 }
 .about {
     height: 595px;
-    margin-top:150px;
+    margin-top:100px;
 }
 .about_column {
     display: grid;
@@ -244,7 +245,7 @@
 .footer {
     margin-top: 200px;
     height:98px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .footer_columns {
     display: grid;
