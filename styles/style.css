@@ -1,1 +1,341 @@
 /* место для вашего кода */
+.header {
+    display: flex;
+    margin:92px 24px 92px 24px;
+}
+.header__menu-link {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.none_mark {
+    list-style-type:none;
+}
+.head-title {
+    display:inline-block;
+    padding:44px 26.52px 44px 26.52px;
+}
+.header__menu-item {
+    float:left;
+    margin:0 20px;
+    text-align: center;
+}
+
+.header__logo-image {
+   
+    width:148px;
+    height:105px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu-contact {
+    display:block;
+}
+.head-contacts {
+    display: inline-block;
+   margin-left:auto;
+   margin-top: 5px;
+}
+
+.accent-span {
+    display:block;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+    
+}
+.overlay {
+    background-color: rgb(0 0 0/0.7);
+    z-index: 10;
+    background-size: 100% 100%;
+}
+
+
+.letter {
+    letter-spacing: 60px;
+    
+}
+.letter1 {
+    letter-spacing: 60px;
+}
+.cover {
+    background-image: url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/cover.jpg");
+    background-repeat: no-repeat;
+	background-position:auto;
+	background-size:100% 100% ;
+   
+    
+}
+.cover__title {
+
+    color:#FFFFFF;
+    height: 355px;
+	font-size: 100px;
+    font-weight: 700;
+    padding-top: 165px;
+    padding-left: 50px;
+    letter-spacing: 30px;
+    
+}
+
+.cover_description {
+   display: flex;
+   color:#FFFFFF; 
+   
+  
+
+}
+.cover_description-text {
+    display:flex;
+    align-items: end;
+    word-spacing: 30px;
+    margin-left: 78px;
+    margin-bottom: 40px;
+    margin-top: 327px;;
+    font-weight: 50;
+    
+}
+
+.bet_button {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-top:327px;
+    background-color: transparent;
+    border:1px solid #FFFFFF;
+    padding:10px 20px;
+    font-weight: 50;
+}
+
+
+.lots_heading {
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.lots {
+    height: 692px;
+    margin-top:200px ;
+}
+.card_type_film {
+
+    background-image: 
+    linear-gradient(
+        rgb(0 0 0/0.7),
+        rgb(0 0 0/0.7)
+    ),
+    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-01.jpg");
+    
+	
+}
+.card_type_book {
+    background-image: 
+    linear-gradient(
+        rgb(0 0 0/0.7),
+        rgb(0 0 0/0.7)
+    ),
+    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-02.jpg");
+   
+ 
+	
+}
+.card_type_picture {
+    background-image: 
+    linear-gradient(
+        rgb(0 0 0/0.7),
+        rgb(0 0 0/0.7)
+    ),
+    url("D:/Пиро_нн/Git/dev1/ono-tebe-nado/images/card-lot-03.jpg");
+    
+	
+}
+.lots_card-list {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.lots_card-list-item {
+    display: flex;
+    flex-grow: 1;
+    height: 563px;
+    width: 334px;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card-link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+.card {
+    
+    display: grid;
+    height: 100%;
+    padding-right: 15px;
+    padding-bottom: 30px;
+   
+    
+}
+.card_title {
+    
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: underline;
+    text-underline-position: under;
+    color:#ffffff;
+    margin-left: 30px;
+    margin-top: 60px;
+    line-height: 1.5;
+    
+
+}
+.card_text {
+    display: grid;
+    align-self:end;
+    color:#FFFFFF;
+    font-weight: 100;
+    font-size: 20px; 
+    margin-left: 30px;
+}
+
+.lots_look-more-link {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+
+.about {
+    height: 595px;
+    margin-top:150px;
+}
+.about_column {
+    display: grid;
+    grid-template-columns:334px auto;
+    grid-template-rows: 595px;
+    justify-content: center;
+   
+
+}
+.about_logo {
+    display: grid;
+    background-color: #000000;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    padding: 40px;
+    margin-left: 40px;
+    margin-top: 35px;
+    align-content: center;
+    
+}
+.about_logo-image {
+    justify-content: center;
+}
+.about_title {
+    display: grid;
+    font-size: 40px;
+    font-weight: 700;
+    align-self: center;
+    margin-top:130px;
+}
+.about_text1 {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    align-self: end;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.about_text {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    align-self: end;
+}
+
+
+.footer {
+    margin-top: 200px;
+    height:98px;
+    margin-bottom: 100px;
+}
+
+.footer_columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 98px);
+}
+
+.footer__menu-link {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.footer__menu-link1 {
+    text-decoration: none;
+}
+
+.footer-title {
+    line-height: normal;
+}
+.footer__menu-item {
+    margin:0 20px;
+    text-align: center;
+    
+}
+.footer__menu-list {
+    display: grid;
+    justify-items: left;
+}
+.footer__menu-list1 {
+    display: grid;
+    justify-items: center;
+    list-style-type: none;
+}
+
+.footer__menu-contact {
+    display:block;
+}
+.footer-contacts {
+    display: grid;
+   margin-right:auto;
+   margin-top: 5px;
+}
+.footer-menu {
+    display: grid;
+}
+
+.footer__social-list {
+    display: grid;
+    justify-items: end;
+    margin-bottom: 40px;
+    
+}
+.footer__social-icon {
+    width: 48px;
+    height: 48px;
+    margin-right:48px;
+    
+}
+.footer__social-list-item {
+    display:inline-block;
+}
+
