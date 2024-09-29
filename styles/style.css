@@ -119,6 +119,7 @@
     margin-bottom: 48px;
     background-color: transparent;
     font-size: 22px;
+    font-family:inherit;
     border:1px solid #FFFFFF;
     color: #FFFFFF;
     padding:12px 30px;
